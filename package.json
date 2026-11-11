@@ -1,0 +1,35 @@
+{
+  "name": "cinematic-html-builder",
+  "version": "1.0.0",
+  "description": "Watches AI streaming HTML tokens and renders a live, animated construction preview in a sandboxed iframe with sci-fi hero power-up visuals.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "cinematic-html-builder": "bin/cinematic-html-builder.js"
+  },
+  "scripts": {
+    "start": "node bin/cinematic-html-builder.js --demo",
+    "test": "node --test test/*.test.js",
+    "demo": "node examples/stream-server.js"
+  },
+  "keywords": [
+    "streaming-html",
+    "ai-agent",
+    "claude-code",
+    "copilot-skill",
+    "cursor-skill",
+    "antigravity-skill",
+    "cinematic",
+    "animation",
+    "sandbox-iframe",
+    "pipeable-dom",
+    "diff-dom-streaming"
+  ],
+  "author": "Arnav Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "diff-dom-streaming": "^0.6.11",
+    "pipeable-dom": "^0.0.33"
+  },
+  "devDependencies": {}
+}
